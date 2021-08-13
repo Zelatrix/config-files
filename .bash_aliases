@@ -7,6 +7,11 @@ alias c='clear'
 alias pip='pip3'
 alias python='python3'
 
+# Programs
+alias c='clear'
+alias cls='clear'
+alias df='df -h | grep -v '/dev/loop' | grep -v '/var/lib'
+
 # Git aliases
 alias gi='git init'
 alias gcm='git checkout origin master'
