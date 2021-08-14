@@ -10,7 +10,7 @@ alias python='python3'
 # Programs
 alias c='clear'
 alias cls='clear'
-alias df='df -h | grep -v '/dev/loop' | grep -v '/var/lib'
+alias df='df -h | grep -v '/dev/loop' | grep -v '/var/lib''
 
 # List running Docker containers
 running() {
