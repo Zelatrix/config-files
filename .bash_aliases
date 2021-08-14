@@ -11,6 +11,7 @@ alias python='python3'
 alias c='clear'
 alias cls='clear'
 alias df='df -h | grep -v '/dev/loop' | grep -v '/var/lib''
+alias vi='vim'
 
 # List running Docker containers
 running() {
