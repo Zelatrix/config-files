@@ -1,7 +1,8 @@
+# Listing aliases
 alias ll='ls -alF'
+alias lh='ls -alh'
 alias la='ls -A'
 alias l='ls -CF'
-alias c='clear'
 
 # Re-aliasing a bunch of Python2 stuff
 alias pip='pip3'
