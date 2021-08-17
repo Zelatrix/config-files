@@ -21,9 +21,9 @@ call plug#end()
 
 set encoding=utf-8      " On Neovim, UTF-8 is the default
 :colorscheme elflord    " The colourscheme is set after the plugins so that the colours in 
-			                  " awesome-vim-colorschemes are also available
+			" awesome-vim-colorschemes are also available
 										
 let g:NERDTreeDirArrowExpandable="+"  " This icon will show when a folder structure
-                        				      " can be expanded
+                        	      " can be expanded
 let g:NERDTreeDirArrowCollapsible="~" " This icon will show when a folder structure 
                                       " can be collapsed
