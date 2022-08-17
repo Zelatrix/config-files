@@ -8,17 +8,17 @@
 call plug#begin('~/.vim/plugged')
 
   Plug 'https://github.com/itchyny/lightline.vim' 
-  Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
-  Plug 'https://github.com/tc50cal/vim-terminal'          " VIM Terminal
-  Plug 'https://github.com/terryma/vim-multiple-cursors'  " CTRL + N for multiple cursors
-  Plug 'https://github.com/tpope/vim-commentary' 					" gcc/gc for commenting	
-	Plug 'https://github.com/mbbill/undotree' 							" UndoTree - version history
-	Plug 'https://github.com/tpope/vim-surround' 						" Surround ysw/ysiw
+  Plug 'https://github.com/rafi/awesome-vim-colorschemes' 	" Retro Scheme
+  Plug 'https://github.com/tc50cal/vim-terminal'          	" VIM Terminal
+  Plug 'https://github.com/terryma/vim-multiple-cursors'  	" CTRL + N for multiple cursors
+  Plug 'https://github.com/tpope/vim-commentary' 		" gcc/gc for commenting	
+  Plug 'https://github.com/mbbill/undotree' 			" UndoTree - version history
+  Plug 'https://github.com/tpope/vim-surround' 			" Surround ysw/ysiw
 
-	" Plugins for syntax highlighting
+  " Plugins for syntax highlighting
   Plug 'https://github.com/bfrg/vim-cpp-modern' " C/C++
   
-	" This requires a Nerd Font to be installed otherwise the icons will not show up
+  " This requires a Nerd Font to be installed otherwise the icons will not show up
   Plug 'https://github.com/preservim/nerdtree'  	 " NerdTree
   Plug 'https://github.com/ryanoasis/vim-devicons' " Developer icons
 
