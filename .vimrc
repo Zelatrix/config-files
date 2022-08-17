@@ -8,21 +8,11 @@
 call plug#begin('~/.vim/plugged')
 
   Plug 'https://github.com/itchyny/lightline.vim' 
-<<<<<<< Updated upstream
   Plug 'https://github.com/rafi/awesome-vim-colorschemes' 	" Retro Scheme
   Plug 'https://github.com/tc50cal/vim-terminal'          	" VIM Terminal
   Plug 'https://github.com/terryma/vim-multiple-cursors'  	" CTRL + N for multiple cursors
-  Plug 'https://github.com/tpope/vim-commentary' 		" gcc/gc for commenting	
-  Plug 'https://github.com/mbbill/undotree' 			" UndoTree - version history
-  Plug 'https://github.com/tpope/vim-surround' 			" Surround ysw/ysiw
-
-  " Plugins for syntax highlighting
-=======
-  Plug 'https://github.com/preservim/nerdtree'            " NerdTree
-  Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
-  Plug 'https://github.com/tc50cal/vim-terminal'          " VIM Terminal
-  Plug 'https://github.com/terryma/vim-multiple-cursors'  " CTRL + N for multiple cursors
-  Plug 'https://github.com/mbbill/undotree' 							" UndoTree - version history 
+  Plug 'https://github.com/mbbill/undotree' 								" UndoTree - version history
+  Plug 'https://github.com/preservim/nerdtree'            	" NerdTree
   
 	" gc comments out the line that the cursor is currently on 
 	" gcc takes a count and will comment out that number of lines
@@ -43,33 +33,21 @@ call plug#begin('~/.vim/plugged')
 	Plug 'https://github.com/tpope/vim-surround' 						" Surround ysw/ysiw
 																													
 	" Plugins for syntax highlighting
->>>>>>> Stashed changes
   Plug 'https://github.com/bfrg/vim-cpp-modern' " C/C++
   
   " This requires a Nerd Font to be installed otherwise the icons will not show up
-<<<<<<< Updated upstream
-  Plug 'https://github.com/preservim/nerdtree'  	 " NerdTree
   Plug 'https://github.com/ryanoasis/vim-devicons' " Developer icons
 
 call plug#end()
-=======
-  " vim-devicons must be the last plugin to load
-	
+  
+	" vim-devicons must be the last plugin to load
 	Plug 'https://github.com/ryanoasis/vim-devicons' " Developer icons
 
 	call plug#end()
->>>>>>> Stashed changes
 
 set encoding=utf-8      " On Neovim, UTF-8 is the default
 :colorscheme elflord    " The colourscheme is set after the plugins so that the colours in 
 												" awesome-vim-colorschemes are also available
 										
-<<<<<<< Updated upstream
 let g:NERDTreeDirArrowExpandable="+"  " This icon will show when a folder structure can be expanded
 let g:NERDTreeDirArrowCollapsible="~" " This icon will show when a folder structure can be collapsed
-=======
-let g:NERDTreeDirArrowExpandable="+"  " This icon will show when a folder structure
-                        	      			" can be expanded
-let g:NERDTreeDirArrowCollapsible="~" " This icon will show when a folder structure 
-                                      " can be collapsed
->>>>>>> Stashed changes
