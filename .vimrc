@@ -39,11 +39,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'https://github.com/ryanoasis/vim-devicons' " Developer icons
 
 call plug#end()
-  
-	" vim-devicons must be the last plugin to load
-	Plug 'https://github.com/ryanoasis/vim-devicons' " Developer icons
-
-	call plug#end()
 
 set encoding=utf-8      " On Neovim, UTF-8 is the default
 :colorscheme elflord    " The colourscheme is set after the plugins so that the colours in 
