@@ -1,10 +1,11 @@
-git clone - download a repository
-git init = initialise a new Git repository
-git status - show status of current branch
-git add -A - stage all files possible
-git commit -m - commit staged files to DB
-git remote add origin <repo name> - Create a link to <repo name> (if it is a new repository)
-git push - push files to remote location (if it is the first push to the repository, you must do git push -u origin master)
+git clone: 													download a repository
+git init: 													initialise a new Git repository
+git status: 												show status of current branch
+git add -A: 												stage all files possible
+git commit -m: 											commit staged files to DB
+git remote add origin <repo name>: 	create a link to <repo name> (if it is a new repository)
+git push: 													push files to remote location (if it is the first push to 
+																		the repository, you must do git push -u origin master)
 
 
 Workflow:
