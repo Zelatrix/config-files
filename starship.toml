@@ -1,4 +1,4 @@
-format="$username@$hostname $directory( $git_branch)\\$ " 
+format="$username@$hostname $directory( $git_branch)( $python)\\$ " 
 
 [username]
 disabled=false
@@ -21,3 +21,6 @@ symbol=""
 style="bold yellow"
 always_show_remote=true
 format="[$branch $symbol]($style)"
+
+[python]
+format="[$virtualenv]($style)"
