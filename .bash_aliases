@@ -18,6 +18,23 @@ alias vi='vim'
 running() {
    echo "Running containers:"; docker ps | awk '{if (NR!=1) print $2, $NF}' | column -t
 }
+ 
+dfs() {
+	df -h | awk '{
+		if (NR==1) {
+			i=1;
+			while (i < NF) {
+				printf $i "   ";
+				i++;
+				if (i == NF) {
+					printf "\n"
+				}
+			}
+		} else if (NR > 1) {
+			print | "sort"
+		}
+	}' | column -t 
+}
 
 # Git aliases
 alias init='git init'
